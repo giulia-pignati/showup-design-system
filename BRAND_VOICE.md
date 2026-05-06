@@ -52,29 +52,41 @@ The brand name "ShowUp" carries a double meaning in English:
 
 Marketing copy uses this by setting up the construction `Show ___` (with a variable word filling the blank) and resolving it with `ShowUp` as the punchline. The pattern works because every line lands on the same word — the brand name doubles as the call to action.
 
-**Pattern examples:**
+**Pattern examples (read each row as a sequential animation, not a static lockup):**
 
-> Show**Casual**.
-> Show**Sporty**.
-> **ShowUp**.
+> `Show|` → `ShowCasually` → (deleted) → `ShowSporty` → (deleted) → `ShowUp.`
 
-> Show**Hiking**.
-> Show**Coffee**.
-> **ShowUp**.
+> `Show|` → `ShowHiking` → (deleted) → `ShowCoffee` → (deleted) → `ShowUp.`
 
-> Show**Curiosity**.
-> Show**Courage**.
-> **ShowUp**.
+> `Show|` → `ShowQuiet` → (deleted) → `ShowEarly` → (deleted) → `ShowUp.`
 
-**The lime accent in marketing copy:**
+**The animation: typing as the conceptual mechanism**
 
-In marketing layouts, the accent color (`#D1F471`) can appear as a **separator/pause mark** between the variable word and "Up" — e.g. `Show`**`Hiking`**`·`**`Up`** with the dot rendered in lime. This represents the "moment of decision" before someone confirms attendance, which is the central product mechanic. It is the verbal counterpart to how the accent is used inside the product UI (quorum reached, event confirmed).
+The marketing system is not a static lockup — it is an **animation**. The verb construction "Show ___" plays out as a typing sequence that visualises hesitation, deletion, and arrival. This mirrors the actual mental state of a user deciding whether to attend an event: considering, second-guessing, considering again, and finally — confirming.
+
+The animation sequence:
+
+1. The word `Show` appears on screen with a blinking cursor `|` after it, as if someone is about to finish typing.
+2. A variable word is **typed out letter by letter** after `Show` — for example, `ShowCasually`. The blinking cursor stays at the end.
+3. The variable word is then **deleted letter by letter**, as if the writer changed their mind. Back to `Show|`.
+4. A second variable word is typed (e.g. `ShowSporty`), then deleted the same way.
+5. Optionally a third (e.g. `ShowQuiet`), then deleted.
+6. Finally, `Up` is typed — `ShowUp.` — and the cursor stops blinking. The wordmark settles.
+7. **The wordmark rises slightly** with a soft motion, and the tagline appears beneath: `That's all it takes.`
+
+This is the canonical brand animation. Static lockups should be avoided in favor of the animated form whenever the medium supports it (video, web, app onboarding, social motion graphics). When a static fallback is unavoidable (print, app store screenshots), use the wordmark `ShowUp` alone with the tagline beneath.
+
+**The lime accent in marketing animation:**
+
+The accent color (`#D1F471`) appears as the **blinking cursor** during the typing sequence. The cursor IS the lime — that single small mark is the only chromatic element on screen during the entire animation, representing the moment of decision in real time. When the animation resolves on `ShowUp.`, the cursor stops blinking and disappears, the lime momentarily holding the period, then fading. The tagline that follows is in plain ink.
+
+This is why the lime works conceptually: it is **literal hesitation** — a blinking input cursor — rather than a decorative mark. It earns its place by representing the very thing the product is about: the pause before someone commits.
 
 **The tagline:**
 
-> **Show up. That's all it takes.**
+> **That's all it takes.**
 
-Used as the primary tagline across landing pages, app store listing, and end-of-ad sign-off. It compresses the entire product thesis: the only ask is that you appear.
+Used beneath the resolved wordmark as the closing line of every campaign animation. The full statement reads `Show up. That's all it takes.` but in the animation, "Show up" is performed by the typing sequence itself, so the tagline only needs to deliver the second half.
 
 **Rules for marketing register:**
 
@@ -94,7 +106,7 @@ The UI never uses the marketing voice. The marketing copy never lives inside a b
 **Right:** The button says `Confirm`. The marketing voice lives on the landing page that brought the user to the app.
 
 **Wrong:** A landing page hero that says `View available events near you` (UI voice on marketing surface).
-**Right:** The landing page hero says `Show**Hiking**. Show**Coffee**. **ShowUp**.`
+**Right:** The landing page hero shows the typing animation that resolves on `ShowUp.` followed by the tagline.
 
 This separation matters because the two voices serve different purposes. The UI voice reduces friction; the marketing voice creates memorability. Mixing them dilutes both.
 
@@ -109,12 +121,13 @@ This separation matters because the two voices serve different purposes. The UI 
 | Empty state | UI | `No events yet` |
 | Error message | UI | `Couldn't load events. Try again.` |
 | Push notification | UI | `Quorum reached for Sunday hike` |
-| Onboarding screen title | Marketing | `Show**Up**.` |
-| Landing page hero | Marketing | `Show**Hiking**. Show**Coffee**. **ShowUp**.` |
+| Onboarding screen title | Marketing | `ShowUp.` (or animated typing sequence) |
+| Landing page hero | Marketing | Typing animation: `Show` + cursor → `ShowCasually` → deleted → `ShowSporty` → deleted → `ShowUp.` |
 | App store description | Marketing (opening), UI (feature list) | Mix both registers, marketing first |
-| Tagline (any surface) | Marketing | `Show up. That's all it takes.` |
+| Tagline (any surface) | Marketing | `That's all it takes.` |
 | Email subject (event reminder) | UI | `Sunday hike — 9:00 AM tomorrow` |
-| Email subject (campaign) | Marketing | `Show**Saturday**. **ShowUp**.` |
+| Email subject (campaign) | Marketing | `ShowUp.` (paired with animation in body) |
+| Static fallback (print, app store screenshots) | Marketing | Wordmark `ShowUp` + tagline `That's all it takes.` — no dot, no lockup |
 
 ---
 
