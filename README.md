@@ -28,7 +28,7 @@ src/
 │   ├── Input.tsx           # Text inputs with label patterns
 │   ├── Badge.tsx           # Status indicators (uses accent color)
 │   ├── Heading.tsx         # Display + body heading variants
-│   ├── EventImage.tsx      # Optional event photo (3:2 landscape)
+│   ├── EventImage.tsx      # Optional event cover photo (21:9 cinematic)
 │   └── QuorumIndicator.tsx # Domain-specific component
 ├── app/
 │   └── page.tsx            # Example page showing components in use
@@ -37,6 +37,7 @@ src/
 
 tailwind.config.js          # Full token system as Tailwind theme
 DESIGN_TOKENS.md            # Detailed token documentation
+BRAND_VOICE.md              # Voice & copy — UI vs marketing registers
 ILLUSTRATION_STYLE.md       # Doodle illustration guidelines (for later)
 ```
 
@@ -47,7 +48,10 @@ This repo is structured to be parsed by Claude Design. When you connect it as yo
 1. `tailwind.config.js` — to learn the color, type, and spacing tokens
 2. `src/components/` — to learn the component patterns and naming
 3. `src/app/page.tsx` — to see how components compose into real UI
-4. The Markdown docs — to understand intent and constraints
+4. The Markdown docs — to understand intent and constraints:
+   - `DESIGN_TOKENS.md` — visual system reference
+   - `BRAND_VOICE.md` — copy and voice rules (UI vs marketing)
+   - `ILLUSTRATION_STYLE.md` — illustration guidelines
 
 When you then ask Claude to design new screens for ShowUp, it will use this vocabulary automatically.
 
